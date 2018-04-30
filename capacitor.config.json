@@ -2,5 +2,10 @@
   "appId": "com.roccogeorgi.captest",
   "appName": "Captest",
   "bundledWebRuntime": false,
-  "webDir": "www"
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 10000
+    }
+  }
 }
