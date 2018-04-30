@@ -1,0 +1,6 @@
+{
+  "appId": "com.roccogeorgi.captest",
+  "appName": "Captest",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

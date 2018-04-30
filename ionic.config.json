@@ -1,0 +1,6 @@
+{
+  "name": "captest",
+  "app_id": "com.roccogeorgi.captest",
+  "type": "ionic-angular",
+  "integrations": {}
+}
