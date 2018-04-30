@@ -1,0 +1,23 @@
+{
+  "name": "captest",
+  "version": "0.0.1",
+  "description": "Capacitor test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocco/capacitor-test.git"
+  },
+  "keywords": [
+    "capacitor",
+    "test"
+  ],
+  "author": "Rocco Georgi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocco/capacitor-test/issues"
+  },
+  "homepage": "https://github.com/rocco/capacitor-test#readme"
+}
