@@ -54,8 +54,26 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       StatusBar.setStyle({
         style: StatusBarStyle.Light // or .Light
-      });
-      SplashScreen.hide();
+      }).then(
+        (successObj) => {
+          console.log('SplashScreen.hide successObj', successObj);
+        },
+        (errorObj) => {
+          console.log('SplashScreen.hide errorObj', errorObj);
+        }
+      );
+
+      SplashScreen.hide({
+        fadeOutDuration: 2000 // How long (in ms) to fade out. Default is 200ms
+      }).then(
+        (successObj) => {
+          console.log('SplashScreen.hide successObj', successObj);
+        },
+        (errorObj) => {
+          console.log('SplashScreen.hide errorObj', errorObj);
+        }
+      );
+
     });
     this.initTranslate();
   }
